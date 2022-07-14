@@ -6,13 +6,14 @@
   --primery-bg-color: #f5f4fa;
   --black: #000000;
   --secondary-bg-color: #2f303a;
+  --hover-hero-btn-color: #188ce8;
 }
 
 body {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
 }
-/* основний розмір шрифту на всякий віпадок */
+
 .list {
   list-style: none;
 }
@@ -28,8 +29,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--black);
 }
-header span,
-footer span {
+.accent-logo {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
@@ -56,6 +56,10 @@ footer span {
   letter-spacing: 0.02em;
   color: var(--primery-text-color);
 }
+.header-nav .link.current {
+  color: var(--accent-color);
+}
+
 /* -------------HERO---------- */
 .hero {
   background-color: var(--secondary-bg-color);
@@ -70,6 +74,7 @@ footer span {
   color: var(--secondary-title-color);
 }
 .hero-btn {
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -79,6 +84,10 @@ footer span {
   letter-spacing: 0.06em;
   color: var(--secondary-title-color);
   background-color: var(--accent-color);
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: var(--hover-hero-btn-color);
 }
 /* -------------Advantage----------- */
 .advantage-title {
