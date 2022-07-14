@@ -3,17 +3,19 @@
   --primery-title-color: #212121;
   --secondary-title-color: #ffffff;
   --accent-color: #2196f3;
+  --primery-bg-color: #f5f4fa;
+  --black: #000000;
+  --secondary-bg-color: #2f303a;
 }
 
 body {
   font-family: "Roboto", sans-serif;
-  font-size: 14px
+  font-size: 14px;
 }
 /* основний розмір шрифту на всякий віпадок */
 .list {
   list-style: none;
 }
-
 .link {
   text-decoration: none;
 }
@@ -24,7 +26,7 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #000000;
+  color: var(--black);
 }
 header span,
 footer span {
@@ -56,7 +58,7 @@ footer span {
 }
 /* -------------HERO---------- */
 .hero {
-  background-color: #2f303a;
+  background-color: var(--secondary-bg-color);
 }
 .hero-title {
   font-weight: 900;
@@ -75,7 +77,7 @@ footer span {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: var(--secondary-title-color);
   background-color: var(--accent-color);
 }
 /* -------------Advantage----------- */
@@ -109,6 +111,9 @@ footer span {
   color: var(--primery-color-title--title-);
 } */
 /* -------------TEAM----------- */
+.team {
+  background-color: var(--primery-bg-color);
+}
 /* .team-title {
   font-weight: 700;
   font-size: 36px;
@@ -135,15 +140,19 @@ footer span {
 
 /* ------------FOOTER------------- */
 .footer {
-  background-color: #2f303a;
+  background-color: var(--secondary-bg-color);
 }
 .footer-logo {
-  color: #ffffff;
+  color: var(--secondary-title-color);
 }
 .contact {
   font-style: normal;
   line-height: 1.71;
   letter-spacing: 0.03em;
+}
+.footer-item:hover,
+.footer-item:focus {
+  color: var(--accent-color);
 }
 .address-text {
   /* font-style: normal;
@@ -166,23 +175,23 @@ footer span {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--primery-title-color);
-  background: #f5f4fa;
+  background-color: var(--primery-bg-color);
 }
 .filter-btn:hover,
 .filter-btn:focus {
   color: var(--secondary-title-color);
   background: var(--accent-color);
 }
-.works-title{
-font-weight: 700;
-font-size: 18px;
-line-height: 2;
-letter-spacing: 0.06em;
-color: var(--primery-title-color);
+.works-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--primery-title-color);
 }
-.works-text{
+.works-text {
   font-size: 16px;
-line-height: 1.88;
-letter-spacing: 0.03em;
-color: var(--primery-text-color);
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--primery-text-color);
 }
