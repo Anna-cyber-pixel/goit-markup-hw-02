@@ -12,6 +12,7 @@
 body {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
+  color: var(--primery-text-color);
 }
 
 .list {
@@ -84,6 +85,7 @@ body {
   letter-spacing: 0.06em;
   color: var(--secondary-title-color);
   background-color: var(--accent-color);
+  cursor: pointer;
 }
 .hero-btn:hover,
 .hero-btn:focus {
@@ -100,7 +102,7 @@ body {
 .advantage-text {
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--primery-text-color);
+
 }
 /* -------------ABOUT----------- */
 .title {
@@ -144,7 +146,7 @@ body {
   line-height: 1.18px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--primery-text-color);
+  
 }
 
 /* ------------FOOTER------------- */
@@ -185,6 +187,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--primery-title-color);
   background-color: var(--primery-bg-color);
+  cursor: pointer;
 }
 .filter-btn:hover,
 .filter-btn:focus {
