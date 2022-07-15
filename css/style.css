@@ -34,7 +34,7 @@ body {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.19cm;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--accent-color);
 }
@@ -94,7 +94,8 @@ body {
 /* -------------Advantage----------- */
 .advantage-title {
   font-weight: 700;
-  line-height: 1.14px;
+  font-size: 14px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primery-title-color);
@@ -143,7 +144,7 @@ body {
 }
 .team-item-text {
   font-size: 16px;
-  line-height: 1.18px;
+  line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
   
